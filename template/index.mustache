@@ -1,0 +1,63 @@
+
+
+  <header>
+
+
+
+    <div >
+     <h1>{{& titre}}</h1>
+     <h2>{{& club}}</h2>
+     <h3>{{& equipe}}</h3>
+   </div>
+
+   <div class="svg-container" id="logo">
+   {{& svg.logo}}
+   </div>
+
+<div>
+{{#icone}}
+<div class="svg-container">
+<a href="http://{{& rooturl}}/{{& url}}.html">  <svg>
+<text x="0" y="15" fill="red">{{& item}}</text>
+   </svg>
+ </a>
+ </div>
+{{/icone}}
+ </div>
+  </header>
+  <section>
+
+ <div>
+      <p>{{& description}}</p>
+ </div>
+
+   <div>
+
+     {{#vitrine}}
+     <div class=svg-container>
+     <a href="http://{{& rooturl}}/{{& url}}.html">  <svg>
+     <text x="0" y="15" fill="red">{{& item}}</text>
+        </svg>
+      </a>
+    </div>
+     {{/vitrine}}
+
+   </div>
+
+  </section>
+
+  <section>
+   <h2> Plan du site</h2>
+
+  <ul>
+    {{#plan}}
+       <li>{{& item}}</li>
+       {{#subelem}}
+         <ul>
+           {{& item}}
+         </ul>
+       {{/subelem}}
+    {{/plan}}
+  </ul>
+
+  </section>

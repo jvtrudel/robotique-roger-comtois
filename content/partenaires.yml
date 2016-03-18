@@ -1,0 +1,10 @@
+---
+titre: Titre
+club: "Fusce ultrices quam molestie, vulputate."
+description:"Sed rutrum nibh diam. Morbi erat eros, accumsan sed nibh quis, posuere efficitur purus. Maecenas lacinia hendrerit sollicitudin. In eu dictum lacus, eu sodales nunc. In semper massa a varius bibendum. Praesent eu mi rutrum, posuere nisl non, rhoncus nunc. Nam eget accumsan arcu. Nulla pretium diam orci, id maximus nisl mattis vel. Aliquam porta, eros ac blandit imperdiet, eros orci aliquet risus, ut consequat dolor odio ut risus. Donec eget consectetur sem. Duis facilisis, lectus sed aliquam convallis, sapien mauris varius quam, bibendum ornare turpis tortor a felis. Integer hendrerit sit amet quam id venenatis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam sagittis erat et libero viverra, et tempor leo aliquet. Nunc bibendum nulla ac rutrum interdum. Suspendisse malesuada ligula at quam gravida malesuada."
+partenaires: [
+   {nom: "École secondaire Roger-Comtois", merci: "Merci  à l'école (et en particulier à Mme Gagno) d'avoir accepter de se lancer dans cette aventure. Dégager des ressources et appuyé les professeurs et techniciens. Achat de kit légo et fournir un local et des ordinateurs."},
+   {nom: "Fusion Jeunesse", merci: "Un merci d'avoir fournit"},
+   {nom: "Nos parents", }
+]
+---
